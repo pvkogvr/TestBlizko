@@ -1,0 +1,104 @@
+h1,h2{
+    font-family: 'Oswald';
+}
+header h4{
+    font-family: 'Inter';
+    font-size: 70%;
+}
+h1{
+    font-size: 180%;
+}
+h2{
+    font-size: 130%;
+}
+header, nav{
+    min-width: 950px;
+    color: azure;
+}
+header{
+    padding-top: 43px;
+    padding-bottom: 40px;
+    background-image: url("../image/fon.svg");
+    background-position: center;
+    background-color: rgba(0,0,0, 1.0);
+    /* display: flex; */
+}
+header .container, nav .container{
+    max-width: 950px;
+    margin: auto;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    /* margin-right: 0; */
+}
+header .log, .log img{
+    float: left;
+}
+header .log{
+    width: 400px;
+}
+.log h1, .log h4{
+    padding-left: 16%;
+}
+.log h4, .info h4{
+    padding-top: 10px;
+    opacity: .7;
+}
+.log img{
+    width: 14%;
+    mix-blend-mode: lighten;
+}
+.info{
+    text-align: right;
+    padding-left: 2%;
+}
+.call h4{
+    color: black;
+    background-color: white;
+    padding: 20px 30px;
+    box-shadow: 0px 15px 30px -12px #000000;
+    border-radius: 3px;
+}
+.call{
+    padding-left: 3%;
+}
+.icon{
+    padding-left: 3%;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 13px;
+}
+.icon img{
+    width: 70%;
+    padding: 3px;
+}
+
+nav{
+    display: flex;
+    height: 30px;
+    background: linear-gradient(180deg, #003471 0%, #212121 191.67%);
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+nav .container{
+
+    text-align: center;
+}
+nav a{
+    color: white;
+    
+    font-size: 70%;
+    font-family: 'Open Sans';
+    padding-left: 20px;
+    text-decoration: none;
+}
+nav a:first-child{
+    padding-left: 0;
+}
+.active{
+    opacity: .6;
+}
